@@ -18,6 +18,7 @@ export const Title = styled.h1`
   text-shadow: var(--main-shadow);
   box-shadow: var(--main-shadow);
   border-radius: 10px;
+  background-color: #ebf5fc;
 `;
 
 export const Subtitle = styled.h2`
@@ -28,4 +29,5 @@ export const Subtitle = styled.h2`
   text-shadow: var(--main-shadow);
   box-shadow: var(--main-shadow);
   border-radius: 10px;
+  background-color: #ebf5fc;
 `;

@@ -23,7 +23,7 @@ export const Input = styled.input`
   width: 100%;
   font-size: 24px;
   color: var(--primary);
-  background-color: transparent;
+  background-color: #ffffff;
   border: none;
   border-radius: 5px;
   box-shadow: var(--inset-shadow);
