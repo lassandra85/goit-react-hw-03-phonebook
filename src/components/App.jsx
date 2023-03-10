@@ -4,6 +4,8 @@ import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
 import { Title, Subtitle, Container } from './App.styled';
 
+const LS_KEY = 'contacts';
+
 export class App extends React.Component {
   state = {
     contacts: [
@@ -14,6 +16,18 @@ export class App extends React.Component {
     ],
     filter: '',
   };
+
+  componentDidMount() {
+    const dataNumbers = localStorage.getItem(LS_KEY);
+
+    if (dataNumbers) {
+      this.setState({ contacts: JSON.parse(dataNumbers) });
+    }
+  }
+
+  componentDidUpdate() {
+    localStorage.setItem(LS_KEY, JSON.stringify(this.state.contacts));
+  }
 
   handlerSubmit = data => {
     this.setState(({ contacts }) =>

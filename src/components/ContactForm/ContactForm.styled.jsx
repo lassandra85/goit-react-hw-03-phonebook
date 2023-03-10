@@ -6,7 +6,6 @@ export const Container = styled(Form)`
   margin-bottom: 20px;
   padding: 20px;
   max-width: 50%;
-
 `;
 
 export const Wrapper = styled.div`
@@ -47,7 +46,7 @@ export const Btn = styled.button`
   font-size: 24px;
   font-weight: 500;
   color: var(--accent);
-  background-color: rgb(225, 195, 244);
+  background-color: hwb(305 87% 3%);
   border-radius: 5px;
   border: 1px solid var(--accent);
   box-shadow: var(--main-shadow);

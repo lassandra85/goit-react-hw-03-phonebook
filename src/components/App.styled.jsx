@@ -7,7 +7,7 @@ export const Container = styled.div`
   text-align: center;
   box-shadow: var(--main-shadow);
   border-radius: 10px;
-  background-color: #ede3ec;
+  background-color: hsl(62, 95%, 75%);
 `;
 
 export const Title = styled.h1`
@@ -18,7 +18,6 @@ export const Title = styled.h1`
   text-shadow: var(--main-shadow);
   box-shadow: var(--main-shadow);
   border-radius: 10px;
-  background-color: #f3badd;
 `;
 
 export const Subtitle = styled.h2`
@@ -29,5 +28,4 @@ export const Subtitle = styled.h2`
   text-shadow: var(--main-shadow);
   box-shadow: var(--main-shadow);
   border-radius: 10px;
-  background-color: #f3badd;
 `;
